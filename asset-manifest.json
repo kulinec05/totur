@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/totur/static/css/main.ca3aa32d.css",
+    "main.css": "/totur/static/css/main.f0618ac0.css",
     "main.js": "/totur/static/js/main.52d425cd.js",
     "static/js/787.6eb9fd66.chunk.js": "/totur/static/js/787.6eb9fd66.chunk.js",
     "static/media/telegamsvg.svg": "/totur/static/media/telegamsvg.39173e90c5023260def7a9012f48edf2.svg",
     "index.html": "/totur/index.html",
-    "main.ca3aa32d.css.map": "/totur/static/css/main.ca3aa32d.css.map",
+    "main.f0618ac0.css.map": "/totur/static/css/main.f0618ac0.css.map",
     "main.52d425cd.js.map": "/totur/static/js/main.52d425cd.js.map",
     "787.6eb9fd66.chunk.js.map": "/totur/static/js/787.6eb9fd66.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca3aa32d.css",
+    "static/css/main.f0618ac0.css",
     "static/js/main.52d425cd.js"
   ]
 }
