@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/totur/static/css/main.f0618ac0.css",
-    "main.js": "/totur/static/js/main.52d425cd.js",
-    "static/js/787.6eb9fd66.chunk.js": "/totur/static/js/787.6eb9fd66.chunk.js",
-    "static/media/telegamsvg.svg": "/totur/static/media/telegamsvg.39173e90c5023260def7a9012f48edf2.svg",
-    "index.html": "/totur/index.html",
-    "main.f0618ac0.css.map": "/totur/static/css/main.f0618ac0.css.map",
-    "main.52d425cd.js.map": "/totur/static/js/main.52d425cd.js.map",
-    "787.6eb9fd66.chunk.js.map": "/totur/static/js/787.6eb9fd66.chunk.js.map"
+    "main.css": "/totur/home/static/css/main.ccf2318c.css",
+    "main.js": "/totur/home/static/js/main.15a3d45f.js",
+    "static/js/787.6eb9fd66.chunk.js": "/totur/home/static/js/787.6eb9fd66.chunk.js",
+    "static/media/team.svg": "/totur/home/static/media/team.9ca44134560bbb3d8494159a9e712ac2.svg",
+    "static/media/telegamsvg.svg": "/totur/home/static/media/telegamsvg.39173e90c5023260def7a9012f48edf2.svg",
+    "static/media/sea.svg": "/totur/home/static/media/sea.33e773efd57a0bc2cac29400ea7f6b4b.svg",
+    "static/media/kitchen.svg": "/totur/home/static/media/kitchen.1a9bd7620585bc60b1978de868711586.svg",
+    "static/media/mountain.svg": "/totur/home/static/media/mountain.9186b11c879c59b254264f77fa55e0be.svg",
+    "static/media/care.svg": "/totur/home/static/media/care.9974e717d52e465dc22e18395319fc7e.svg",
+    "index.html": "/totur/home/index.html",
+    "main.ccf2318c.css.map": "/totur/home/static/css/main.ccf2318c.css.map",
+    "main.15a3d45f.js.map": "/totur/home/static/js/main.15a3d45f.js.map",
+    "787.6eb9fd66.chunk.js.map": "/totur/home/static/js/787.6eb9fd66.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0618ac0.css",
-    "static/js/main.52d425cd.js"
+    "static/css/main.ccf2318c.css",
+    "static/js/main.15a3d45f.js"
   ]
 }
