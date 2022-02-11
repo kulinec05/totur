@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/totur/home/static/css/main.ccf2318c.css",
-    "main.js": "/totur/home/static/js/main.15a3d45f.js",
+    "main.js": "/totur/home/static/js/main.055c7ede.js",
     "static/js/787.6eb9fd66.chunk.js": "/totur/home/static/js/787.6eb9fd66.chunk.js",
     "static/media/team.svg": "/totur/home/static/media/team.9ca44134560bbb3d8494159a9e712ac2.svg",
     "static/media/telegamsvg.svg": "/totur/home/static/media/telegamsvg.39173e90c5023260def7a9012f48edf2.svg",
@@ -11,11 +11,11 @@
     "static/media/care.svg": "/totur/home/static/media/care.9974e717d52e465dc22e18395319fc7e.svg",
     "index.html": "/totur/home/index.html",
     "main.ccf2318c.css.map": "/totur/home/static/css/main.ccf2318c.css.map",
-    "main.15a3d45f.js.map": "/totur/home/static/js/main.15a3d45f.js.map",
+    "main.055c7ede.js.map": "/totur/home/static/js/main.055c7ede.js.map",
     "787.6eb9fd66.chunk.js.map": "/totur/home/static/js/787.6eb9fd66.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccf2318c.css",
-    "static/js/main.15a3d45f.js"
+    "static/js/main.055c7ede.js"
   ]
 }
