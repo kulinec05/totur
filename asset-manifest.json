@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/totur/static/css/main.ccf2318c.css",
-    "main.js": "/totur/static/js/main.50495b17.js",
+    "main.css": "/totur/static/css/main.9b89438c.css",
+    "main.js": "/totur/static/js/main.1fea8c14.js",
     "static/js/787.6eb9fd66.chunk.js": "/totur/static/js/787.6eb9fd66.chunk.js",
     "static/media/team.svg": "/totur/static/media/team.9ca44134560bbb3d8494159a9e712ac2.svg",
     "static/media/telegamsvg.svg": "/totur/static/media/telegamsvg.39173e90c5023260def7a9012f48edf2.svg",
@@ -10,12 +10,12 @@
     "static/media/mountain.svg": "/totur/static/media/mountain.9186b11c879c59b254264f77fa55e0be.svg",
     "static/media/care.svg": "/totur/static/media/care.9974e717d52e465dc22e18395319fc7e.svg",
     "index.html": "/totur/index.html",
-    "main.ccf2318c.css.map": "/totur/static/css/main.ccf2318c.css.map",
-    "main.50495b17.js.map": "/totur/static/js/main.50495b17.js.map",
+    "main.9b89438c.css.map": "/totur/static/css/main.9b89438c.css.map",
+    "main.1fea8c14.js.map": "/totur/static/js/main.1fea8c14.js.map",
     "787.6eb9fd66.chunk.js.map": "/totur/static/js/787.6eb9fd66.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccf2318c.css",
-    "static/js/main.50495b17.js"
+    "static/css/main.9b89438c.css",
+    "static/js/main.1fea8c14.js"
   ]
 }
