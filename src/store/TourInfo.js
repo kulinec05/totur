@@ -86,7 +86,7 @@ const TourInfo = {
 
         name: 'Свой тур',
         mainImg: 'https://im0-tub-ru.yandex.net/i?id=0186128c342fd522d6028bd255e3e2ac-l&n=13',
-        duration: '6 дня/5 ночей',
+        duration: '6 дней/5 ночей',
         dates: '',
         cost: '15000',
         ageW: '+14',

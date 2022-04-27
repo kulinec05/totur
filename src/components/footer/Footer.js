@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card} from "antd";
-import {InstagramOutlined, PhoneOutlined, WhatsAppOutlined} from "@ant-design/icons";
-import {Content} from "antd/es/layout/layout";
+import {InstagramOutlined, SendOutlined, WhatsAppOutlined} from "@ant-design/icons";
+
 
 const Footer = (props) => {
 
@@ -26,8 +26,11 @@ const Footer = (props) => {
                         <InstagramOutlined/>
 
                     </a>
-                    <a>
-                        <PhoneOutlined/>
+                    <a
+                       href="https://telegram.me/TossaTur"
+                       target='_blank'
+                    >
+                        <SendOutlined />
 
                     </a>
                 </h1>

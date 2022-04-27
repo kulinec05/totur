@@ -10,6 +10,9 @@ const OrderForm = (props) => {
 
     function sendEmail(e) {
 
+        message.loading({ content: 'Loading...', key:'updatable' });
+
+
         let order = {
             name:nameRef.current.state.value,
             number:numberRef.current.state.value,
@@ -17,21 +20,28 @@ const OrderForm = (props) => {
             val:valRef.current.value,
             tour:props.value.name
         }
+        if(nameRef.current.state.value.length <= 1 || numberRef.current.state.value.length < 10 ){
+
+            message.error({ content: 'Заполнены не все поля', key:'updatable' });
+
+        }
+        else {
+            emailjs.send('gmail', 'template_448do7j', order, process.env.REACT_APP_API_KEY)
+                .then((result) => {
+                    console.log(result.text);
+                    message.success({content:'Заявка отправлена',key:'updatable'});
+                }, (error) => {
+                    console.log(error.text);
+                    message.error({content:'Заявку не удалось отправить, свяжитесь с нами через контакты',key:'updatable'});
+                });
+
+        }
 
 
         console.log(order)
-        message.loading({ content: 'Loading...', key:'updatable' });
 
 
 
-        emailjs.send('gmail', 'template_448do7j', order, process.env.REACT_APP_WEATHER_API_KEY)
-            .then((result) => {
-                console.log(result.text);
-                message.success({content:'Заявка отправлена',key:'updatable'});
-            }, (error) => {
-                console.log(error.text);
-                message.error({content:'Заявку не удалось отправить, свяжитесь с нами через контакты',key:'updatable'});
-            });
 
 
     };

@@ -2,6 +2,7 @@
   "name": "totur",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kulinec05.github.io/totur/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@emailjs/browser": "^3.4.0",
@@ -9,17 +10,23 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.18.5",
+    "dotenv": "^14.3.2",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-text-transition": "^1.3.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,10 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "express": "^4.17.2",
-    "express-favicon": "^2.0.1",
-    "path": "^0.12.7"
   }
 }

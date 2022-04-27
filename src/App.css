@@ -1,16 +1,24 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 40px;
     width: 100vw;
-    background-color: white;
-    opacity: 0.5;
-}
-a{
+    background-color: transparent;
+    opacity: 1;
+    position: fixed;
+    top:0;
+    right:0;
     color: black;
 }
 
+
 body::-webkit-scrollbar {
+    opacity: 0;
+    display: none;
+    width: 0;
+    height: 0;
+}
+.tours-list::-webkit-scrollbar {
     opacity: 0;
     display: none;
     width: 0;
@@ -25,7 +33,9 @@ body::-webkit-scrollbar {
     text-align: start;
 }
 .footer-active{
-    width: 80vw;
+    padding-right:10vw ;
+    padding-left:10vw ;
+    width: 100vw;
 }
 
 .tours-list {
@@ -43,7 +53,7 @@ body::-webkit-scrollbar {
     font-size: 5vh;
     display: flex;
     /* left: 0; */
-    height: 65vh;
+    height: 62vh;
     width: 20vw;
     align-items: flex-end;
     justify-content: flex-end;
@@ -65,23 +75,66 @@ body::-webkit-scrollbar {
 }
 
 .header-main-button {
-    font-size: 20px;
+    font-size: 40px;
     margin: 10px;
     transition: all 300ms;
 }
 .header-main-button:hover{
-    font-size: 25px;
+    font-size: 45px;
+    opacity: 0.5;
 }
 .header-main-button:active{
-    font-size: 18px;
+    font-size: 38px;
 }
 
 .tour-look {
     width: 23vw;
-    height: 90vh;
+    height: 100vh;
     opacity: 0.7;
     transition: all 500ms;
     text-align: start;
+
+}
+.aboutus-card{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+.aboutus-title{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+.aboutus-header{
+    height: 80vh;
+   display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.aboutus-header-text{
+    text-align: center;
+
+}
+.aboutus-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.aboutus-box-item{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    margin: 3vw;
+    gap: 10px;
+}
+.aboutus-box-img{
+    display: flex;
+    align-self: center;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 40px;
 
 }
 
@@ -94,8 +147,9 @@ body::-webkit-scrollbar {
 }
 
 .tour-look-active {
+    display: flex;
     height: 90vh;
-    font-size: 7vh;
+    font-size: 4vh;
     left: auto;
     right: auto;
     width: 80vw;
@@ -127,7 +181,7 @@ body::-webkit-scrollbar {
     width: 35vw;
 }
 .card-text {
-
+ padding-top: 10vh;
 }
 
 .order-form{
@@ -151,19 +205,21 @@ body::-webkit-scrollbar {
     }
 
     .tours-list {
+        overflow-x: hidden;
         flex-direction: column;
     }
 
     .tour-look {
         width: 100vw;
         height: 24vh;
+        opacity: 1;
     }
     .footer-number-email{
-        font-size: 4vh;
+        font-size: 3vh;
         display: flex;
         /* left: 0; */
         height: auto;
-        width: calc(100vw - 48px);
+        width: calc(80vw - 48px);
         align-items: flex-end;
         justify-content: flex-start;
     }
@@ -175,11 +231,29 @@ body::-webkit-scrollbar {
         width: 100vw;
         height: 40vh;
     }
+    .footer-active{
+        padding-right:2vw ;
+        padding-left:2vw ;
+        width: 100vw;
+    }
     .tour-look-active{
         width: 100vw;
     }
     .tour-day-tabs{
         height: auto;
     }
-
+    .tour-look:hover{
+        font-size: medium;
+        width: 100vw;
+        height: 24vh;
+    }
+    .aboutus-card{
+        width: 100vw;
+    }
+    .aboutus-box{
+        flex-direction: column;
+    }
+    .aboutus-box-item{
+        width: auto;
+    }
 }

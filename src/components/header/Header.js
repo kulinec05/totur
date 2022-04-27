@@ -1,24 +1,18 @@
 import React from 'react';
 import {AppstoreFilled, FlagFilled, MessageFilled} from '@ant-design/icons'
 import {Affix} from "antd";
+import {Link} from "react-router-dom";
 
 const Header = (props) => {
 
     return (
-        <Affix offsetTop={0}>
-            <div className='header'>
+            <Link className='header' to='/'>
+                <div onClick={() => props.setChosenTour(0)}>
 
-                        <AppstoreFilled className='header-main-button'
-                        onClick={()=>props.setChosenTour(0)}/>
-
-            <span>
-
-                        <FlagFilled className='header-main-button' />
-                        <MessageFilled  className='header-main-button' />
-
-            </span>
-            </div>
-        </Affix>
+                    <AppstoreFilled className='header-main-button'
+                    />
+                </div>
+            </Link>
     );
 };
 
