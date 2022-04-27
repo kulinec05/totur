@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6e24374.css",
-    "main.js": "/static/js/main.aa5a30de.js",
-    "static/js/787.6eb9fd66.chunk.js": "/static/js/787.6eb9fd66.chunk.js",
-    "index.html": "/index.html",
-    "main.f6e24374.css.map": "/static/css/main.f6e24374.css.map",
-    "main.aa5a30de.js.map": "/static/js/main.aa5a30de.js.map",
-    "787.6eb9fd66.chunk.js.map": "/static/js/787.6eb9fd66.chunk.js.map"
+    "main.css": "/kulinec05.github.io/totur/static/css/main.f6e24374.css",
+    "main.js": "/kulinec05.github.io/totur/static/js/main.b7292cad.js",
+    "static/js/787.6eb9fd66.chunk.js": "/kulinec05.github.io/totur/static/js/787.6eb9fd66.chunk.js",
+    "index.html": "/kulinec05.github.io/totur/index.html",
+    "main.f6e24374.css.map": "/kulinec05.github.io/totur/static/css/main.f6e24374.css.map",
+    "main.b7292cad.js.map": "/kulinec05.github.io/totur/static/js/main.b7292cad.js.map",
+    "787.6eb9fd66.chunk.js.map": "/kulinec05.github.io/totur/static/js/787.6eb9fd66.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6e24374.css",
-    "static/js/main.aa5a30de.js"
+    "static/js/main.b7292cad.js"
   ]
 }
