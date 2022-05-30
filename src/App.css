@@ -8,7 +8,10 @@
     position: fixed;
     top:0;
     right:0;
-    color: black;
+    /* color: black; */
+}
+h1{
+    font-weight: 5;
 }
 
 
@@ -27,7 +30,7 @@ body::-webkit-scrollbar {
 .footer{
     padding: 0;
     width: 23vw;
-    height: 90vh;
+    height: 100vh;
     opacity: 0.7;
     transition: all 500ms;
     text-align: start;
@@ -35,7 +38,7 @@ body::-webkit-scrollbar {
 .footer-active{
     padding-right:10vw ;
     padding-left:10vw ;
-    width: 100vw;
+    width: 80vw;
 }
 
 .tours-list {
@@ -74,6 +77,7 @@ body::-webkit-scrollbar {
     transform: rotate(0);
 }
 
+
 .header-main-button {
     font-size: 40px;
     margin: 10px;
@@ -93,6 +97,8 @@ body::-webkit-scrollbar {
     opacity: 0.7;
     transition: all 500ms;
     text-align: start;
+    text-shadow: white 2px 2px 10px;
+    color: #fff;
 
 }
 .aboutus-card{
@@ -104,15 +110,18 @@ body::-webkit-scrollbar {
     padding-left: 10vw;
     padding-right: 10vw;
     text-align: center;
+    color: #fff;
 }
 .aboutus-header{
     height: 80vh;
    display: flex;
     justify-content: space-between;
     flex-direction: column;
+    color: white;
 }
 .aboutus-header-text{
     text-align: center;
+    color:white;
 
 }
 .aboutus-box{
@@ -141,7 +150,7 @@ body::-webkit-scrollbar {
 .tour-look:hover {
     width: 31vw;
     opacity: 1;
-    font-size: 5vh;
+    font-size: 4vh;
     transition: all 500ms;
 
 }
@@ -159,11 +168,19 @@ body::-webkit-scrollbar {
 
 }
 
+.tour-day-tabs-desc {
+    overflow-y:scroll ;
+
+}
 .tour-day-tabs {
+padding-left: 10vw;
+padding-right: 10vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    width: 80vw;
+    width: 100vw;
     height: 80vh;
+    text-align: end;
+    font-size: 2vh;
 }
 
 .n-active {
@@ -171,6 +188,7 @@ body::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
+
 
 .day-tab-desc {
     display: flex;
@@ -182,21 +200,27 @@ body::-webkit-scrollbar {
 }
 .card-text {
  padding-top: 10vh;
+ color:white;
 }
 
 .order-form{
     width: 80vw;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5vh;
 }
 
 @media only screen and (max-width: 768px) {
     .day-tab-desc {
         flex-direction: column;
     }
-
+    .ant-col-offset-8{
+    margin-left: 0;
+    }
     .tour-look-active {
         font-size: 4vh;
+    }
+    .order-form{
+        width: 100vw;
     }
 
     .tab-image{
@@ -240,7 +264,9 @@ body::-webkit-scrollbar {
         width: 100vw;
     }
     .tour-day-tabs{
+        font-size: medium;
         height: auto;
+        padding-bottom: 20px
     }
     .tour-look:hover{
         font-size: medium;

@@ -6,13 +6,13 @@ import {Link} from "react-router-dom";
 const Header = (props) => {
 
     return (
-            <Link className='header' to='/'>
-                <div onClick={() => props.setChosenTour(0)}>
+            <div className='header' to='/'>
+                <Link onClick={() => props.setChosenTour(0)} to='/'>
 
                     <AppstoreFilled className='header-main-button'
                     />
-                </div>
-            </Link>
+                </Link>
+            </div>
     );
 };
 

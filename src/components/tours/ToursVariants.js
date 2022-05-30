@@ -65,7 +65,7 @@ const ToursVariants = (props) => {
                     <Card
                         hoverable
                         className={chosenTour === 0 ? className : 'tour-look-active'}
-                        style={{backgroundImage: 'linear-gradient(to right, rgba(0, 224, 255, 1), rgba(0, 133, 255, 1))'}}
+                        style={{color:'white', backgroundImage: `url('images/osnova.jpg')`}}
                         onClick={() => setChosenTour('aboutus')}
                     >
                         { chosenTour!=='aboutus'?
@@ -88,8 +88,8 @@ const ToursVariants = (props) => {
                                 className={chosenTour !== value.id ? className : 'tour-look-active'}
                                 onClick={() => setChosenTour(value.id)}
                             >
-                                <h1  className ={chosenTour!==0? 'card-text':null}>{value.name}</h1>
-                                <h3>{value.duration}</h3>
+                                <h1  className ={chosenTour!==0? 'card-text':null} style={value.id===4?{color:'white'}:null}>{value.name}</h1>
+                                <h3 className='card-text'>{value.duration}</h3>
                             </Card>
 
                         </Link>
